@@ -1,0 +1,122 @@
+.preview {
+  padding: 130px 0 0 0;
+  background-color: #282c34;
+  background-image: url(./images/555552.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 200px;
+  background-size: 50% auto;
+  height: 50vh;
+}
+.title {
+  margin: 0;
+  text-align: center;
+  color: #61dafb;
+  font-size: 65px;
+  letter-spacing: 0.02em;
+}
+.subTitle {
+  color: #fff;
+  text-align: center;
+  margin: 20px 0;
+  font-weight: 100px;
+  font-size: 30px;
+}
+.previewBottom {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  padding: 15px 25px;
+  font-size: 20px;
+  background-color: #61dafb;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.btn:hover {
+  background-color: #fff;
+}
+.link {
+  font-size: 20px;
+  color: #61dafb;
+  cursor: pointer;
+}
+.link:hover {
+  color: #fff;
+}
+.arrow {
+  height: 12px;
+  margin-left: 5px;
+}
+.cardsMain {
+  width: 70%;
+  margin: 0 auto;
+  padding: 50px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card {
+  margin-bottom: 50px;
+}
+.cardTitle {
+  color: #6d6d6d;
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 20px;
+}
+.cardTxt {
+  font-size: 17px;
+  line-height: 1.7;
+  max-width: 22em;
+}
+hr {
+  width: 70%;
+  margin-bottom: 50px;
+}
+@media (max-width: 1120px) {
+  .preview {
+    background-position: 100% 300px;
+  }
+  .cardsMain {
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 1030px) {
+  .subTitle {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 540px) {
+  .preview {
+    background-position: 100% 560px;
+    padding: 230px 0 0 0;
+    height: 55vh;
+  }
+  .subTitle {
+    padding: 0 20px;
+  }
+  .previewBottom {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+  }
+  .btn {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 465px) {
+  .preview {
+    background-position: 100% 590px;
+  }
+}
+@media (max-width: 375px) {
+  .preview {
+    background-position: 100% 650px;
+    height: fit-content;
+    padding: 250px 0 20px 0;
+  }
+
+}
